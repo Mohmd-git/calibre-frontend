@@ -1,0 +1,1800 @@
+[{
+  "_id": {
+    "$oid": "69b39e39e232e35935156181"
+  },
+  "link": "https://www.nasa.gov/what-is-artificial-intelligence/",
+  "annotations": "",
+  "summary": "What is Artificial Intelligence? - NASA"
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156182"
+  },
+  "link": "https://www.ibm.com/think/topics/artificial-intelligence",
+  "annotations": "",
+  "summary": "What is artificial intelligence (AI)? - IBM"
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156183"
+  },
+  "link": "https://www.sap.com/resources/what-is-artificial-intelligence",
+  "annotations": "",
+  "summary": "What Is Artificial Intelligence (AI)? Definition, Examples ..."
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156184"
+  },
+  "link": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+  "annotations": "",
+  "summary": "What is Artificial Intelligence (AI)? | Google Cloud"
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156185"
+  },
+  "link": "https://www.coursera.org/articles/what-is-artificial-intelligence",
+  "annotations": "",
+  "summary": "What Is Artificial Intelligence? Definition, Uses, and Types"
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156186"
+  },
+  "link": "https://www.mtu.edu/computing/ai/",
+  "annotations": "",
+  "summary": "What is Artificial intelligence (AI)? - Michigan Technological University"
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156187"
+  },
+  "link": "https://scienceexchange.caltech.edu/topics/artificial-intelligence-research/artificial-intelligence-definition",
+  "annotations": "",
+  "summary": "What Is Artificial Intelligence? Definition and History of AI - Caltech ..."
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156188"
+  },
+  "link": "https://www.sciencenewstoday.org/what-is-artificial-intelligence-ai-everything-you-need-to-know",
+  "annotations": "",
+  "summary": "What is Artificial Intelligence (AI)? Everything You Need to Know"
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e35935156189"
+  },
+  "link": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "annotations": "",
+  "summary": "Artificial intelligence - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69b39e39e232e3593515618a"
+  },
+  "link": "https://www.britannica.com/technology/artificial-intelligence",
+  "annotations": "",
+  "summary": "Artificial intelligence (AI) | Definition, Examples, Types ..."
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e3593515618b"
+  },
+  "link": "https://businessanalyticsinstitute.com/machine-learning-algorithms-explained/",
+  "annotations": "",
+  "summary": "Machine Learning Algorithms: Explained Simply & Clearly"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e3593515618c"
+  },
+  "link": "https://www.geeksforgeeks.org/machine-learning/machine-learning-algorithms/",
+  "annotations": "",
+  "summary": "Machine Learning Algorithms - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e3593515618d"
+  },
+  "link": "https://medium.com/@ainaminute/all-machine-learning-algorithms-explained-2025-a-beginner-friendly-field-guide-e951b0bcaa4b",
+  "annotations": "",
+  "summary": "All Machine-Learning Algorithms Explained (2025): A Beginner ... - Medium"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e3593515618e"
+  },
+  "link": "https://www.infoworld.com/article/2338768/the-engines-of-ai-machine-learning-algorithms-explained.html",
+  "annotations": "",
+  "summary": "The engines of AI: Machine learning algorithms explained"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e3593515618f"
+  },
+  "link": "https://www.statology.org/introduction-to-machine-learning-key-concepts-and-algorithms-explained/",
+  "annotations": "",
+  "summary": "Introduction to Machine Learning: Key Concepts and Algorithms Explained"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e35935156190"
+  },
+  "link": "https://www.kdnuggets.com/7-must-know-machine-learning-algorithms-explained-in-10-minutes",
+  "annotations": "",
+  "summary": "7 Must-Know Machine Learning Algorithms Explained in 10 Minutes"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e35935156191"
+  },
+  "link": "https://explainanything.ai/machine-learning-algorithms",
+  "annotations": "",
+  "summary": "Machine Learning Algorithms: A Comprehensive Guide"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e35935156192"
+  },
+  "link": "https://www.ibm.com/think/topics/machine-learning-algorithms",
+  "annotations": "",
+  "summary": "What are machine learning algorithms? - IBM"
+},
+{
+  "_id": {
+    "$oid": "69b39e44e232e35935156193"
+  },
+  "link": "https://www.freecodecamp.org/news/machine-learning-handbook/",
+  "annotations": "",
+  "summary": "Machine Learning Fundamentals Handbook - Key Concepts, Algorithms, and ..."
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e35935156194"
+  },
+  "link": "https://www.connectwise.com/blog/common-threats-and-attacks",
+  "annotations": "",
+  "summary": "10 common cybersecurity threats and attacks - ConnectWise"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e35935156195"
+  },
+  "link": "https://preyproject.com/blog/cyber-threats",
+  "annotations": "",
+  "summary": "What are cyber threats? Types, examples, and prevention strategies"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e35935156196"
+  },
+  "link": "https://www.gartner.com/en/cybersecurity/topics/cybersecurity-threats",
+  "annotations": "",
+  "summary": "Cybersecurity Threats: Key Insights, Trends, and Best Practices"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e35935156197"
+  },
+  "link": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-threat-prevention.html",
+  "annotations": "",
+  "summary": "Threat Prevention - How to Stop Cyber Threats? - Cisco"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e35935156198"
+  },
+  "link": "https://www.ready.gov/cybersecurity",
+  "annotations": "",
+  "summary": "Cybersecurity - Ready.gov"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e35935156199"
+  },
+  "link": "https://www.cisa.gov/topics/cyber-threats-and-response",
+  "annotations": "",
+  "summary": "Cyber Threats and Response - CISA"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e3593515619a"
+  },
+  "link": "https://travasecurity.com/learn-with-trava/blog/top-10-cyber-security-threats-and-how-to-prevent-them/",
+  "annotations": "",
+  "summary": "Top 10 Cyber Security Threats and How to Prevent Them - Trava"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e3593515619b"
+  },
+  "link": "https://www.coursera.org/articles/types-of-cyber-attacks",
+  "annotations": "",
+  "summary": "10 Common Types of Cyberattacks and How to Prevent Them"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e3593515619c"
+  },
+  "link": "https://www.fbi.gov/investigate/cyber",
+  "annotations": "",
+  "summary": "Cyber — FBI"
+},
+{
+  "_id": {
+    "$oid": "69b39e9be232e3593515619d"
+  },
+  "link": "https://www.darkreading.com/",
+  "annotations": "",
+  "summary": "Dark Reading | Security | Protect The Business"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e3593515619e"
+  },
+  "link": "https://www.blockchain-council.org/blockchain/what-is-blockchain-technology-and-how-does-it-work/",
+  "annotations": "",
+  "summary": "Blockchain Technology"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e3593515619f"
+  },
+  "link": "https://www.blockchainmagazine.net/what-is-blockchain-technology-the-ultimate-guide/",
+  "annotations": "",
+  "summary": "What is Blockchain Technology ? The Ultimate Guide"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a0"
+  },
+  "link": "https://www.ibm.com/think/topics/blockchain",
+  "annotations": "",
+  "summary": "What is blockchain? - IBM"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a1"
+  },
+  "link": "https://www.techtarget.com/searchcio/definition/blockchain",
+  "annotations": "",
+  "summary": "What is blockchain? Definition, examples and how it works"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a2"
+  },
+  "link": "https://bloombergjournal.com/crypto/blockchain-the-technology-powering-the-future-of-digital-trust/",
+  "annotations": "",
+  "summary": "Blockchain Technology Explained: How It Works, Benefits, and Future ..."
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a3"
+  },
+  "link": "https://www.britannica.com/money/what-is-blockchain",
+  "annotations": "",
+  "summary": "What Is Blockchain and How Does It Work? | Britannica Money"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a4"
+  },
+  "link": "https://www.sciencenewstoday.org/what-is-blockchain-how-it-works-and-why-its-changing-the-world",
+  "annotations": "",
+  "summary": "What is Blockchain? How It Works and Why It's Changing the World"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a5"
+  },
+  "link": "https://builtin.com/blockchain",
+  "annotations": "",
+  "summary": "Blockchain: What It Is, How It Works, Why It Matters - Built In"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a6"
+  },
+  "link": "https://www.investopedia.com/terms/b/blockchain.asp",
+  "annotations": "",
+  "summary": "Blockchain Facts: What Is It, How It Works, and How It Can Be Used"
+},
+{
+  "_id": {
+    "$oid": "69b39ea9e232e359351561a7"
+  },
+  "link": "https://en.wikipedia.org/wiki/Blockchain",
+  "annotations": "",
+  "summary": "Blockchain - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561a8"
+  },
+  "link": "https://markovate.com/quantum-computing-applications/",
+  "annotations": "",
+  "summary": "Top 8 Quantum Computing Applications Transforming Tech"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561a9"
+  },
+  "link": "https://www.mindfulchase.com/deep-dives/learn-quantum-computing/applications-of-quantum-computing-real-world-use-cases.html",
+  "annotations": "",
+  "summary": "Applications of Quantum Computing: Real-World Use Cases"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561aa"
+  },
+  "link": "https://quantumai.google/applications",
+  "annotations": "",
+  "summary": "Quantum Applications | Google Quantum AI"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561ab"
+  },
+  "link": "https://builtin.com/hardware/quantum-computing-applications",
+  "annotations": "",
+  "summary": "11 Quantum Computing Applications and Examples - Built In"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561ac"
+  },
+  "link": "https://www.rankred.com/applications-of-quantum-computing/",
+  "annotations": "",
+  "summary": "12 Best Applications Of Quantum Computing | 2026 Edition"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561ad"
+  },
+  "link": "https://www.forbes.com/councils/forbestechcouncil/2025/06/09/20-real-world-applications-of-quantum-computing-to-watch/",
+  "annotations": "",
+  "summary": "20 Real-World Applications Of Quantum Computing To Watch - Forbes"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561ae"
+  },
+  "link": "https://link.springer.com/article/10.1007/s11082-025-08364-0",
+  "annotations": "",
+  "summary": "A systematic review of strategic approaches and applications in quantum ..."
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561af"
+  },
+  "link": "https://augmentedqubit.com/quantum-computing-use-cases/",
+  "annotations": "",
+  "summary": "Quantum Computing Use Cases 2025 Complete List (100+ Examples)"
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561b0"
+  },
+  "link": "https://www.ijfmr.com/papers/2025/4/50738.pdf",
+  "annotations": "",
+  "summary": "PDFApplications of Quantum Computing: A Review of Current and Emerging Use ..."
+},
+{
+  "_id": {
+    "$oid": "69b39eb3e232e359351561b1"
+  },
+  "link": "https://www.rand.org/pubs/commentary/2026/03/five-ways-quantum-technology-could-shape-everyday-life.html",
+  "annotations": "",
+  "summary": "Five Ways Quantum Technology Could Shape Everyday Life"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b2"
+  },
+  "link": "https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-iot.html",
+  "annotations": "",
+  "summary": "What Is IoT (Internet of Things)? - Cisco"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b3"
+  },
+  "link": "https://www.ibm.com/think/topics/internet-of-things",
+  "annotations": "",
+  "summary": "What is the Internet of Things (IoT)? - IBM"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b4"
+  },
+  "link": "https://www.sciencenewstoday.org/what-is-the-internet-of-things-iot-a-complete-guide-to-iot-technology-and-its-applications",
+  "annotations": "",
+  "summary": "What is the Internet of Things (IoT)? A Complete Guide to IoT ..."
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b5"
+  },
+  "link": "https://www.sap.com/resources/what-is-iot",
+  "annotations": "",
+  "summary": "What is the Internet of Things? | IoT Explained | SAP"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b6"
+  },
+  "link": "https://www.forbes.com/advisor/business/software/what-is-internet-of-things/",
+  "annotations": "",
+  "summary": "What Is the Internet Of Things (IoT)? - Forbes Advisor"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b7"
+  },
+  "link": "https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT",
+  "annotations": "",
+  "summary": "What is IoT (Internet of Things)? | Definition from TechTarget"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b8"
+  },
+  "link": "https://www.coursera.org/articles/internet-of-things",
+  "annotations": "",
+  "summary": "What Is the Internet of Things (IoT)? With Examples - Coursera"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561b9"
+  },
+  "link": "https://en.wikipedia.org/wiki/Internet_of_things",
+  "annotations": "",
+  "summary": "Internet of things - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561ba"
+  },
+  "link": "https://www.geeksforgeeks.org/computer-networks/introduction-to-internet-of-things-iot-set-1/",
+  "annotations": "",
+  "summary": "Introduction to Internet of Things - IOT - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69b39ebfe232e359351561bb"
+  },
+  "link": "https://www.britannica.com/science/Internet-of-Things",
+  "annotations": "",
+  "summary": "Internet of Things - Encyclopedia Britannica"
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561bc"
+  },
+  "link": "https://www.hilarispublisher.com/open-access/transforming-the-industrial-landscape-the-role-of-robots-in-modern-industry.pdf",
+  "annotations": "",
+  "summary": "PDFIndustrial Landscape: The Role of Robots in Modern Industry"
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561bd"
+  },
+  "link": "https://www.mdpi.com/2227-9717/13/3/832",
+  "annotations": "",
+  "summary": "Recent Advances and Challenges in Industrial Robotics: A ... - MDPI"
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561be"
+  },
+  "link": "https://www.techtimes.com/articles/314187/20260121/how-robotics-technology-trends-are-reshaping-automation-robotics-across-every-industry.htm",
+  "annotations": "",
+  "summary": "How Robotics Technology Trends Are Reshaping Automation Robotics Across ..."
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561bf"
+  },
+  "link": "https://www.mitsubishimanufacturing.com/industrial-robots-guide-2026/",
+  "annotations": "",
+  "summary": "Navigating the Future: An In-Depth Guide to Industrial Robot Types and ..."
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561c0"
+  },
+  "link": "https://robotsguide.com/",
+  "annotations": "",
+  "summary": "ROBOTS: Your Guide to the World of Robotics"
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561c1"
+  },
+  "link": "https://www.roboticstomorrow.com/",
+  "annotations": "",
+  "summary": "Robotics and Automation Stories, Videos, Articles, Interviews, Reviews ..."
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561c2"
+  },
+  "link": "https://www.mckinsey.com/capabilities/operations/our-insights/the-robotics-revolution-scaling-beyond-the-pilot-phase",
+  "annotations": "",
+  "summary": "The robotics revolution: Scaling beyond the pilot phase"
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561c3"
+  },
+  "link": "https://www.sciencenewstoday.org/how-robots-are-changing-manufacturing-industries",
+  "annotations": "",
+  "summary": "How Robots Are Changing Manufacturing Industries"
+},
+{
+  "_id": {
+    "$oid": "69b39ed2e232e359351561c4"
+  },
+  "link": "https://www.therobotreport.com/",
+  "annotations": "",
+  "summary": "The Robot Report"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561c5"
+  },
+  "link": "https://researchmethod.net/data-science/",
+  "annotations": "",
+  "summary": "What is Data Science? Components, Process and Tools"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561c6"
+  },
+  "link": "https://www.upgrad.com/blog/data-science-process/",
+  "annotations": "",
+  "summary": "Data Science Process: Key Steps, Tools and Applications - upGrad"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561c7"
+  },
+  "link": "https://www.geeksforgeeks.org/machine-learning/data-science-process/",
+  "annotations": "",
+  "summary": "Data Science Process - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561c8"
+  },
+  "link": "https://www.educative.io/blog/introduction-to-data-science",
+  "annotations": "",
+  "summary": "Introduction to Data Science: Tools and Techniques for Analysis"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561c9"
+  },
+  "link": "https://hackr.io/blog/data-science-tools",
+  "annotations": "",
+  "summary": "18 Best Data Science Tools For Beginners and Pros [2026] - Hackr"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561ca"
+  },
+  "link": "https://www.scaler.com/blog/data-science-tools/",
+  "annotations": "",
+  "summary": "25 Data Science Tools to Consider in 2025 - Scaler"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561cb"
+  },
+  "link": "https://www.techtarget.com/searchbusinessanalytics/feature/15-data-science-tools-to-consider-using",
+  "annotations": "",
+  "summary": "18 data science tools to consider using in 2025 - TechTarget"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561cc"
+  },
+  "link": "https://www.datacamp.com/blog/top-data-science-tools",
+  "annotations": "",
+  "summary": "Top 10 Data Science Tools To Use in 2026 - DataCamp"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561cd"
+  },
+  "link": "https://www.theknowledgeacademy.com/blog/data-science-tools/",
+  "annotations": "",
+  "summary": "21 Best Data Science Tools Every Professional Should Know"
+},
+{
+  "_id": {
+    "$oid": "69b39edee232e359351561ce"
+  },
+  "link": "https://www.dasca.org/world-of-data-science/article/a-step-by-step-guide-to-the-data-science-workflow",
+  "annotations": "",
+  "summary": "A Step-by-Step Guide to the Data Science Workflow - dasca.org"
+},
+{
+  "_id": {
+    "$oid": "69b3a1944df3b960d024ce5c"
+  },
+  "link": "https://en.wikipedia.org/wiki/Deep_learning",
+  "annotations": "",
+  "summary": "No summary available"
+},
+{
+  "_id": {
+    "$oid": "69b3a1944df3b960d024ce5d"
+  },
+  "link": "https://github.com/resources/articles/what-is-deep-learning",
+  "annotations": "",
+  "summary": "We read every piece of feedback, and take your input very seriously. \n            To see all available qualifiers, see our documentation.\n           March 11, 2026 Discover how deep learning works, why it matters, and where it’s going next.  Deep lea"
+},
+{
+  "_id": {
+    "$oid": "69b3a1954df3b960d024ce5e"
+  },
+  "link": "https://www.ibm.com/think/topics/deep-learning",
+  "annotations": "",
+  "summary": "Deep learning is a subset of machine learning driven by multilayered neural networks whose design is inspired by the structure of the human brain. Deep learning models power most state-of-the-art artificial intelligence (AI) today, from computer visi"
+},
+{
+  "_id": {
+    "$oid": "69b3a1954df3b960d024ce5f"
+  },
+  "link": "https://www.geeksforgeeks.org/deep-learning/introduction-deep-learning/",
+  "annotations": "",
+  "summary": "Introduction to Deep Learning - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69b3a1954df3b960d024ce60"
+  },
+  "link": "https://learn.deeplearning.ai/specializations/deep-learning/information",
+  "annotations": "",
+  "summary": "Deep Learning Specialization - DeepLearning.AI"
+},
+{
+  "_id": {
+    "$oid": "69b3a1954df3b960d024ce61"
+  },
+  "link": "https://www.coursera.org/articles/what-is-deep-learning",
+  "annotations": "",
+  "summary": "What Is Deep Learning? Definition, Examples, and Careers"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b54df3b960d024ce62"
+  },
+  "link": "https://www.interviewbit.com/blog/waterfall-model-in-software-engineering/",
+  "annotations": "",
+  "summary": "What is Waterfall Model in Software Engineering? - InterviewBit"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b54df3b960d024ce63"
+  },
+  "link": "https://www.guru99.com/what-is-sdlc-or-waterfall-model.html",
+  "annotations": "",
+  "summary": "What is Waterfall Model in SDLC? Advantages and Disadvantages - Guru99"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b54df3b960d024ce64"
+  },
+  "link": "https://artoftesting.com/waterfall-model",
+  "annotations": "",
+  "summary": "Waterfall Model in Software Engineering - ArtOfTesting"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b54df3b960d024ce65"
+  },
+  "link": "https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model",
+  "annotations": "",
+  "summary": "What is a Waterfall model? Definition and guide - TechTarget"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b64df3b960d024ce66"
+  },
+  "link": "https://www.ccbp.in/blog/articles/waterfall-model-in-software-engineering",
+  "annotations": "",
+  "summary": "Waterfall Model in Software Engineering: Key Phases & Guide"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b64df3b960d024ce67"
+  },
+  "link": "https://www.geeksforgeeks.org/software-engineering/waterfall-model/",
+  "annotations": "",
+  "summary": "Waterfall Model - Software Engineering - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b64df3b960d024ce68"
+  },
+  "link": "https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm",
+  "annotations": "",
+  "summary": "Waterfall Model in SDLC - Online Tutorials Library"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b64df3b960d024ce69"
+  },
+  "link": "https://en.wikipedia.org/wiki/Waterfall_model",
+  "annotations": "",
+  "summary": "Waterfall model - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69b3a1b64df3b960d024ce6a"
+  },
+  "link": "https://developer.ibm.com/articles/waterfall-model-advantages-disadvantages/",
+  "annotations": "",
+  "summary": "The Waterfall Methodology: Why You Should Use It - IBM Developer"
+},
+{
+  "_id": {
+    "$oid": "69b5088787728292d42e19ee"
+  },
+  "link": "https://aws.amazon.com/what-is-cloud-computing/",
+  "annotations": "",
+  "summary": "What is Cloud Computing? - Cloud Computing Services, Benefits, and ..."
+},
+{
+  "_id": {
+    "$oid": "69b5088787728292d42e19ef"
+  },
+  "link": "https://cloud.google.com/learn/what-is-cloud-computing",
+  "annotations": "",
+  "summary": "What is Cloud Computing? - Google Cloud"
+},
+{
+  "_id": {
+    "$oid": "69b5088787728292d42e19f0"
+  },
+  "link": "https://en.wikipedia.org/wiki/Cloud_computing",
+  "annotations": "",
+  "summary": "Cloud computing - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69b5088787728292d42e19f1"
+  },
+  "link": "https://www.ibm.com/think/topics/cloud-computing",
+  "annotations": "",
+  "summary": "What is cloud computing? - IBM"
+},
+{
+  "_id": {
+    "$oid": "69b5088787728292d42e19f2"
+  },
+  "link": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/",
+  "annotations": "",
+  "summary": "What Is Cloud Computing? | Microsoft Azure"
+},
+{
+  "_id": {
+    "$oid": "69b5088787728292d42e19f3"
+  },
+  "link": "https://www.geeksforgeeks.org/cloud-computing/cloud-computing/",
+  "annotations": "",
+  "summary": "Introduction to Cloud Computing - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69b5088787728292d42e19f4"
+  },
+  "link": "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
+  "annotations": "",
+  "summary": "What is cloud computing? Types, examples and benefits"
+},
+{
+  "_id": {
+    "$oid": "69e479840a7cbefb67accc20"
+  },
+  "link": "https://aws.amazon.com/what-is/blockchain/",
+  "annotations": "",
+  "summary": "What is Blockchain? - Blockchain Technology Explained - AWS"
+},
+{
+  "_id": {
+    "$oid": "69e479840a7cbefb67accc21"
+  },
+  "link": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+  "annotations": "",
+  "summary": "A Complete Guide to Blockchain - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69e479840a7cbefb67accc22"
+  },
+  "link": "https://www.blockchain.com/",
+  "annotations": "",
+  "summary": "Invest like an icon | Blockchain"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc23"
+  },
+  "link": "https://www.ibm.com/think/topics/natural-language-processing",
+  "annotations": "",
+  "summary": "What is NLP (natural language processing)? - IBM"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc24"
+  },
+  "link": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-natural-language-processing-nlp",
+  "annotations": "",
+  "summary": "What Is Natural Language Processing? | Microsoft Azure"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc25"
+  },
+  "link": "https://www.coursera.org/articles/natural-language-processing",
+  "annotations": "",
+  "summary": "What is Natural Language Processing? Definition and Examples"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc26"
+  },
+  "link": "https://www.sas.com/en_us/insights/analytics/what-is-natural-language-processing-nlp.html",
+  "annotations": "",
+  "summary": "Natural Language Processing (NLP): What it is and why it matters"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc27"
+  },
+  "link": "https://en.wikipedia.org/wiki/Natural_language_processing",
+  "annotations": "",
+  "summary": "Natural language processing - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc28"
+  },
+  "link": "https://www.deeplearning.ai/resources/natural-language-processing/",
+  "annotations": "",
+  "summary": "Natural Language Processing (NLP) - A Complete Guide"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc29"
+  },
+  "link": "https://www.geeksforgeeks.org/nlp/introduction-to-natural-language-processing-nlp/",
+  "annotations": "",
+  "summary": "Introduction to Natural Language Processing (NLP)"
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc2a"
+  },
+  "link": "https://www.britannica.com/technology/natural-language-processing-computer-science",
+  "annotations": "",
+  "summary": "Natural language processing (NLP) | Definition, History, & Facts ..."
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc2b"
+  },
+  "link": "https://machinelearningplus.com/nlp/natural-language-processing-guide/",
+  "annotations": "",
+  "summary": "Complete Guide to Natural Language Processing (NLP) - with Practical ..."
+},
+{
+  "_id": {
+    "$oid": "69e479a50a7cbefb67accc2c"
+  },
+  "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9281254/",
+  "annotations": "",
+  "summary": "Natural language processing: state of the art, current trends and ..."
+},
+{
+  "_id": {
+    "$oid": "69e47a9ddd1b9e4092c2abb9"
+  },
+  "link": "https://www.techtarget.com/searchenterpriseai/definition/natural-language-processing-NLP",
+  "annotations": "",
+  "summary": "What is natural language processing (NLP)? - TechTarget"
+},
+{
+  "_id": {
+    "$oid": "69e47a9ddd1b9e4092c2abba"
+  },
+  "link": "https://aws.amazon.com/what-is/nlp/",
+  "annotations": "",
+  "summary": "What is Natural Language Processing? - NLP Explained - AWS"
+},
+{
+  "_id": {
+    "$oid": "69e47a9ddd1b9e4092c2abbb"
+  },
+  "link": "https://www.oracle.com/artificial-intelligence/natural-language-processing/",
+  "annotations": "",
+  "summary": "An Introduction to NLP (Natural Language Processing) | Oracle"
+},
+{
+  "_id": {
+    "$oid": "69e47aa2dd1b9e4092c2abbc"
+  },
+  "link": "https://ischoolonline.berkeley.edu/blog/what-is-machine-learning/",
+  "annotations": "",
+  "summary": "What Is Machine Learning (ML)? Definition and Examples"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abbd"
+  },
+  "link": "https://www.elastic.co/what-is/machine-learning",
+  "annotations": "",
+  "summary": "What is Machine Learning? | A Comprehensive ML Guide"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abbe"
+  },
+  "link": "https://aws.amazon.com/what-is/machine-learning/",
+  "annotations": "",
+  "summary": "What is Machine Learning? - ML Technology Explained - AWS"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abbf"
+  },
+  "link": "https://www.ibm.com/think/topics/machine-learning",
+  "annotations": "",
+  "summary": "Machine learning is the subset of artificial intelligence (AI) focused on algorithms that can “learn” the patterns of training data and, subsequently, make accurate inferences about new data. This pattern recognition ability enables machine learning "
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abc0"
+  },
+  "link": "https://www.geeksforgeeks.org/machine-learning/ml-machine-learning/",
+  "annotations": "",
+  "summary": "What is Machine Learning? - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abc1"
+  },
+  "link": "https://www.coursera.org/articles/what-is-machine-learning",
+  "annotations": "",
+  "summary": "What Is Machine Learning? Definition, Types, and Examples"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abc2"
+  },
+  "link": "https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML",
+  "annotations": "",
+  "summary": "What is Machine Learning? Guide, Definition and Examples"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abc3"
+  },
+  "link": "https://www.datacamp.com/blog/what-is-machine-learning",
+  "annotations": "",
+  "summary": "What is Machine Learning? Definition, Types, Tools & More"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abc4"
+  },
+  "link": "https://www.spiceworks.com/soft-tech/what-is-ml/",
+  "annotations": "",
+  "summary": "What is machine learning? Understanding types & applications - Spiceworks"
+},
+{
+  "_id": {
+    "$oid": "69e47aa3dd1b9e4092c2abc5"
+  },
+  "link": "https://en.wikipedia.org/wiki/Machine_learning",
+  "annotations": "",
+  "summary": "Machine learning - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abc6"
+  },
+  "link": "https://www.cs.purdue.edu/outreach/what-is-cs.html",
+  "annotations": "",
+  "summary": "What is CS? - Department of Computer Science - Purdue University"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abc7"
+  },
+  "link": "https://csadvising.seas.harvard.edu/about/index.html",
+  "annotations": "",
+  "summary": "About CS :: Harvard CS Concentration"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abc8"
+  },
+  "link": "https://www.mtu.edu/cs/what/",
+  "annotations": "",
+  "summary": "What is Computer Science? - Michigan Technological University"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abc9"
+  },
+  "link": "https://www.coursera.org/articles/what-is-computer-science",
+  "annotations": "",
+  "summary": "What Is Computer Science? Career Paths and Degree Options"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abca"
+  },
+  "link": "https://jessup.edu/blog/engineering-technology/what-is-computer-science/",
+  "annotations": "",
+  "summary": "What Is Computer Science? A Beginner's Guide to the Field ... - Jessup"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abcb"
+  },
+  "link": "https://www.usnews.com/education/best-colleges/computer-science-major-overview",
+  "annotations": "",
+  "summary": "What to Know About Becoming a Computer Science Major"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abcc"
+  },
+  "link": "https://www.britannica.com/science/computer-science",
+  "annotations": "",
+  "summary": "Computer science | Definition, Types, & Facts | Britannica"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abcd"
+  },
+  "link": "https://en.wikipedia.org/wiki/Computer_science",
+  "annotations": "",
+  "summary": "Computer science - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69e47ae9dd1b9e4092c2abce"
+  },
+  "link": "https://www.tutorialspoint.com/basics_of_computer_science/index.htm",
+  "annotations": "",
+  "summary": "Basics of Computer Science Tutorial - Online Tutorials Library"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abcf"
+  },
+  "link": "https://www.coursera.org/articles/what-is-robotics",
+  "annotations": "",
+  "summary": "What Is Robotics? - Coursera"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd0"
+  },
+  "link": "https://www.techtarget.com/whatis/definition/robotics",
+  "annotations": "",
+  "summary": "What Is Robotics? | Definition from TechTarget"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd1"
+  },
+  "link": "https://www.mtu.edu/academics/robotics/what/",
+  "annotations": "",
+  "summary": "What is Robotics? - Michigan Technological University"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd2"
+  },
+  "link": "https://robotsfortomorrow.com/what-is-robotics-a-beginners-guide-to-understanding-robots/",
+  "annotations": "",
+  "summary": "What is Robotics? A Beginner's Guide to Understanding Robots"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd3"
+  },
+  "link": "https://www.greenbot.com/what-is-robotics/",
+  "annotations": "",
+  "summary": "What Is Robotics? Exploring Its Meaning, Tech, and Applications"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd4"
+  },
+  "link": "https://www.theknowledgeacademy.com/blog/what-is-robotics/",
+  "annotations": "",
+  "summary": "What is Robotics: A Complete Beginners Guide - The Knowledge Academy"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd5"
+  },
+  "link": "https://builtin.com/robotics",
+  "annotations": "",
+  "summary": "Robotics: What Are Robots? - Built In"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd6"
+  },
+  "link": "https://en.wikipedia.org/wiki/Robotics",
+  "annotations": "",
+  "summary": "Robotics - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd7"
+  },
+  "link": "https://www.britannica.com/technology/robotics",
+  "annotations": "",
+  "summary": "Robotics | Definition, Applications, & Facts | Britannica"
+},
+{
+  "_id": {
+    "$oid": "69e47afcdd1b9e4092c2abd8"
+  },
+  "link": "https://www.uti.edu/blog/robotics-and-automation/robotics-basics",
+  "annotations": "",
+  "summary": "Robotics Basics: A Guide to Core Concepts and Applications"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abd9"
+  },
+  "link": "https://www.cloudflare.com/learning/ai/what-is-neural-network/",
+  "annotations": "",
+  "summary": "What is a neural network? | Types of neural networks"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abda"
+  },
+  "link": "https://github.com/resources/articles/what-are-neural-networks",
+  "annotations": "",
+  "summary": "What are neural networks? - GitHub"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abdb"
+  },
+  "link": "https://www.ibm.com/think/topics/neural-networks",
+  "annotations": "",
+  "summary": "What is a neural network? - IBM"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abdc"
+  },
+  "link": "https://www.geeksforgeeks.org/machine-learning/neural-networks-a-beginners-guide/",
+  "annotations": "",
+  "summary": "What is a Neural Network - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abdd"
+  },
+  "link": "https://hai.stanford.edu/ai-definitions/what-is-a-neural-network",
+  "annotations": "",
+  "summary": "What is a Neural Network? - Stanford HAI"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abde"
+  },
+  "link": "https://aws.amazon.com/what-is/neural-network/",
+  "annotations": "",
+  "summary": "What is a Neural Network? - Artificial Neural Network Explained - AWS"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abdf"
+  },
+  "link": "https://www.udacity.com/blog/2025/01/what-are-neural-networks-the-backbone-of-modern-ai-explained.html",
+  "annotations": "",
+  "summary": "What Are Neural Networks? The Backbone of Modern AI Explained"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abe0"
+  },
+  "link": "https://towardsdatascience.com/neural-networks-intuitively-and-exhaustively-explained-0153f85c1007/",
+  "annotations": "",
+  "summary": "Neural Networks - Intuitively and Exhaustively Explained"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abe1"
+  },
+  "link": "https://www.snowflake.com/en/fundamentals/neural-network/",
+  "annotations": "",
+  "summary": "What Is a Neural Network? How They Work & Why It Matters"
+},
+{
+  "_id": {
+    "$oid": "69e47b77dd1b9e4092c2abe2"
+  },
+  "link": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+  "annotations": "",
+  "summary": "Neural network (machine learning) - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac1"
+  },
+  "link": "https://acronyms.thefreedictionary.com/DL",
+  "annotations": "",
+  "summary": "DL - What does DL stand for? The Free Dictionary"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac2"
+  },
+  "link": "https://www.abbreviations.com/dL",
+  "annotations": "",
+  "summary": "What does DL stand for? - Abbreviations.com"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac3"
+  },
+  "link": "https://www.acronymfinder.com/DL.html",
+  "annotations": "",
+  "summary": "DL - Definition by AcronymFinder"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac4"
+  },
+  "link": "https://www.merriam-webster.com/dictionary/dl",
+  "annotations": "",
+  "summary": "DL Definition & Meaning - Merriam-Webster"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac5"
+  },
+  "link": "https://www.checkyourmath.com/convert/volume/dl.php",
+  "annotations": "",
+  "summary": "Deciliters (dL) - Volume Conversions - CheckYourMath"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac6"
+  },
+  "link": "https://www.grindr.com/blog/dl-meaning-slang",
+  "annotations": "",
+  "summary": "DL Meaning in Slang: Learn about the Down-Low | Grindr"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac7"
+  },
+  "link": "https://www.wikihow.com/Dl-Meaning",
+  "annotations": "",
+  "summary": "DL Meaning: TikTok, Twitter, Dating Apps, and More - wikiHow"
+},
+{
+  "_id": {
+    "$oid": "69e47ef0587b955d27621ac8"
+  },
+  "link": "https://en.wikipedia.org/wiki/Down-low_(sexual_slang)",
+  "annotations": "",
+  "summary": "Down-low (sexual slang) - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69e47f49587b955d27621ac9"
+  },
+  "link": "https://coreweave.com/topics/what-is-machine-learning",
+  "annotations": "",
+  "summary": "What Is Machine Learning? ML Explained for AI Workloads"
+},
+{
+  "_id": {
+    "$oid": "69e47f50587b955d27621aca"
+  },
+  "link": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml",
+  "annotations": "",
+  "summary": "What is Machine Learning? | Google for Developers"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf58"
+  },
+  "link": "https://www.w3schools.com/programming/prog_arrays.php",
+  "annotations": "",
+  "summary": "What is an Array? - W3Schools"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf59"
+  },
+  "link": "https://www.mygreatlearning.com/blog/what-is-an-array-learn-more-in-one-read/",
+  "annotations": "",
+  "summary": "What is an Array? Types of Array | Great Learning"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf5a"
+  },
+  "link": "https://intellipaat.com/blog/what-is-array/",
+  "annotations": "",
+  "summary": "What is an Array? (with Examples) | Intellipaat"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf5b"
+  },
+  "link": "https://4geeks.com/lesson/what-is-an-array-define-array",
+  "annotations": "",
+  "summary": "What is an Array? Understanding the Basics and Defining Array Data ..."
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf5c"
+  },
+  "link": "https://www.toolsqa.com/data-structures/array-in-programming/",
+  "annotations": "",
+  "summary": "What is an Array in Programming - Tools QA"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf5d"
+  },
+  "link": "https://www.simplilearn.com/tutorials/data-structure-tutorial/arrays-in-data-structure",
+  "annotations": "",
+  "summary": "What is Array in Data Structure? Types & Syntax - Simplilearn"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf5e"
+  },
+  "link": "https://www.guru99.com/array-data-structure.html",
+  "annotations": "",
+  "summary": "Array in Data Structure: What is, Arrays Operations [Examples] - Guru99"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf5f"
+  },
+  "link": "https://en.wikipedia.org/wiki/Array_(data_structure)",
+  "annotations": "",
+  "summary": "Array (data structure) - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf60"
+  },
+  "link": "https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+  "annotations": "",
+  "summary": "Array Introduction - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69e485fce2156f854114bf61"
+  },
+  "link": "https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm",
+  "annotations": "",
+  "summary": "Array Data Structure - Online Tutorials Library"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf62"
+  },
+  "link": "https://www.geeksforgeeks.org/dsa/quick-sort-algorithm/",
+  "annotations": "",
+  "summary": "Quick Sort - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf63"
+  },
+  "link": "https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm",
+  "annotations": "",
+  "summary": "Quick Sort Algorithm - Online Tutorials Library"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf64"
+  },
+  "link": "https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/",
+  "annotations": "",
+  "summary": "Quick Sort Tutorials & Notes | Algorithms | HackerEarth"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf65"
+  },
+  "link": "https://www.tutorialkart.com/algorithms/quick-sort-algorithm/",
+  "annotations": "",
+  "summary": "Quick Sort Algorithm - Steps, Example [1], Time Complexity"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf66"
+  },
+  "link": "https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort",
+  "annotations": "",
+  "summary": "Quicksort algorithm overview | Quick sort (article) | Khan Academy"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf67"
+  },
+  "link": "https://uncodemy.com/blog/quick-sort-algorithm-explained-with-code",
+  "annotations": "",
+  "summary": "Quick Sort Algorithm Explained with Code | Learn Sorting in C"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf68"
+  },
+  "link": "https://www.scholarhat.com/tutorial/datastructures/quick-sort-in-data-structures",
+  "annotations": "",
+  "summary": "Quick Sort Algorithm in Data Structures - Types With Examples"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf69"
+  },
+  "link": "https://youcademy.org/quick-sort-algorithm-explanation/",
+  "annotations": "",
+  "summary": "How Quick Sort Works: Step-by-Step Explanation"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf6a"
+  },
+  "link": "https://www.programiz.com/dsa/quick-sort",
+  "annotations": "",
+  "summary": "QuickSort (With Code in Python/C++/Java/C) - Programiz"
+},
+{
+  "_id": {
+    "$oid": "69e48608e2156f854114bf6b"
+  },
+  "link": "https://www.w3schools.com/dsa/dsa_algo_quicksort.php",
+  "annotations": "",
+  "summary": "DSA Quicksort - W3Schools"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c2"
+  },
+  "link": "https://algo.monster/courses/foundation/what_is_linked_list",
+  "annotations": "",
+  "summary": "What is a Linked List? - algo.monster"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c3"
+  },
+  "link": "https://en.wikipedia.org/wiki/Linked_list",
+  "annotations": "",
+  "summary": "Linked list - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c4"
+  },
+  "link": "https://www.geeksforgeeks.org/dsa/linked-list-data-structure/",
+  "annotations": "",
+  "summary": "Linked List Data Structure - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c5"
+  },
+  "link": "https://www.programiz.com/dsa/linked-list",
+  "annotations": "",
+  "summary": "Linked List Data Structure - Programiz"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c6"
+  },
+  "link": "https://www.scholarhat.com/tutorial/datastructures/linkedlist-in-data-structures",
+  "annotations": "",
+  "summary": "Linked List in Data Structures - Types of Linked Lists & Applications"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c7"
+  },
+  "link": "https://www.freecodecamp.org/news/how-linked-lists-work/",
+  "annotations": "",
+  "summary": "How Does a Linked List Work? A Beginner's Guide to Linked Lists"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c8"
+  },
+  "link": "https://www.simplilearn.com/tutorials/data-structure-tutorial/linked-list-in-data-structure",
+  "annotations": "",
+  "summary": "Linked List in Data Structure: Operations | Applications"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5c9"
+  },
+  "link": "https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm",
+  "annotations": "",
+  "summary": "Linked List Data Structure - Online Tutorials Library"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5ca"
+  },
+  "link": "https://www.geeksforgeeks.org/dsa/introduction-to-linked-list-data-structure/",
+  "annotations": "",
+  "summary": "Introduction to Linked List - Data Structure and Algorithm Tutorials"
+},
+{
+  "_id": {
+    "$oid": "69ea49b87e54f493ae50d5cb"
+  },
+  "link": "https://www.w3schools.com/dsa/dsa_theory_linkedlists.php",
+  "annotations": "",
+  "summary": "DSA Linked Lists - W3Schools"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5cc"
+  },
+  "link": "https://www.codecademy.com/resources/blog/what-is-hashing",
+  "annotations": "",
+  "summary": "What is Hashing? - Codecademy"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5cd"
+  },
+  "link": "https://www.sentinelone.com/cybersecurity-101/cybersecurity/hashing/",
+  "annotations": "",
+  "summary": "What is Hashing? - SentinelOne"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5ce"
+  },
+  "link": "https://www.coursera.org/articles/hashing",
+  "annotations": "",
+  "summary": "What Is Hashing in Cybersecurity? - Coursera"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5cf"
+  },
+  "link": "https://informationsecurityasia.com/what-is-a-hash/",
+  "annotations": "",
+  "summary": "What is A Hash in Cryptography? How Does Hashing Work?"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5d0"
+  },
+  "link": "https://www.techtarget.com/searchdatamanagement/definition/hashing",
+  "annotations": "",
+  "summary": "What is hashing and how does it work? - TechTarget"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5d1"
+  },
+  "link": "https://builtin.com/articles/what-is-hashing",
+  "annotations": "",
+  "summary": "What Is Hashing? A Guide With Examples. - Built In"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5d2"
+  },
+  "link": "https://letscipher.com/en/articles/what-is-hashing",
+  "annotations": "",
+  "summary": "Hashing Explained: What It Is, How It Works, and What It's Used For"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5d3"
+  },
+  "link": "https://www.geeksforgeeks.org/dsa/introduction-to-hashing-2/",
+  "annotations": "",
+  "summary": "Introduction to Hashing - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5d4"
+  },
+  "link": "https://www.splunk.com/en_us/blog/learn/hashing-cryptography.html",
+  "annotations": "",
+  "summary": "Hashing in Cryptography Explained: How It Works, Algorithms ... - Splunk"
+},
+{
+  "_id": {
+    "$oid": "69ea49de7e54f493ae50d5d5"
+  },
+  "link": "https://en.wikipedia.org/wiki/Hash_function",
+  "annotations": "",
+  "summary": "Hash function - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5d6"
+  },
+  "link": "https://www.geeksforgeeks.org/dsa/what-is-binary-search-algorithm/",
+  "annotations": "",
+  "summary": "What is Binary Search Algorithm? - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5d7"
+  },
+  "link": "https://www.digitalregenesys.com/blog/what-is-binary-search-algorithm",
+  "annotations": "",
+  "summary": "What is Binary Search Algorithm? | Explained Simply"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5d8"
+  },
+  "link": "https://www.c-sharpcorner.com/article/what-is-binary-search-algorithm-and-how-it-works-with-examples/",
+  "annotations": "",
+  "summary": "What is Binary Search Algorithm and How It Works with Examples."
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5d9"
+  },
+  "link": "https://www.geeksforgeeks.org/dsa/binary-search/",
+  "annotations": "",
+  "summary": "Binary Search - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5da"
+  },
+  "link": "https://en.wikipedia.org/wiki/Binary_search",
+  "annotations": "",
+  "summary": "Binary search - Wikipedia"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5db"
+  },
+  "link": "https://medium.com/@alxkm/understanding-binary-search-a-comprehensive-guide-29b005fac0e4",
+  "annotations": "",
+  "summary": "Understanding Binary Search: A Comprehensive Guide - Medium"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5dc"
+  },
+  "link": "https://unstop.com/blog/binary-search",
+  "annotations": "",
+  "summary": "Binary Search Algorithm | Detailed Explanation +Code Examples"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5dd"
+  },
+  "link": "https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search",
+  "annotations": "",
+  "summary": "Binary search (article) | Algorithms | Khan Academy"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5de"
+  },
+  "link": "https://researchdatapod.com/binary-search/",
+  "annotations": "",
+  "summary": "Binary Search: A Comprehensive Guide - The Research Scientist Pod"
+},
+{
+  "_id": {
+    "$oid": "69ea49f17e54f493ae50d5df"
+  },
+  "link": "https://youcademy.org/how-binary-search-works/",
+  "annotations": "",
+  "summary": "Binary Search Algorithm: Step-by-Step Explanation and Visualization"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e2"
+  },
+  "link": "https://www.geeksforgeeks.org/distributed-systems/what-is-dfsdistributed-file-system/",
+  "annotations": "",
+  "summary": "What is DFS (Distributed File System)? - GeeksforGeeks"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e3"
+  },
+  "link": "https://www.techtarget.com/searchstorage/definition/distributed-file-system-DFS",
+  "annotations": "",
+  "summary": "What is a distributed file system (DFS)? - TechTarget"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e4"
+  },
+  "link": "https://cloudinfrastructureservices.co.uk/what-is-dfs-distributed-file-system-benefits-explained/",
+  "annotations": "",
+  "summary": "What is DFS - Distributed File System? (Benefits Explained)"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e5"
+  },
+  "link": "https://www.starwindsoftware.com/blog/what-is-a-distributed-file-system-dfs-a-complete-guide/",
+  "annotations": "",
+  "summary": "What is a Distributed File System (DFS)? A Complete Guide"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e6"
+  },
+  "link": "https://www.tutorialspoint.com/article/what-is-a-distributed-file-system-dfs",
+  "annotations": "",
+  "summary": "What is a Distributed File System (DFS)? - Online Tutorials Library"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e7"
+  },
+  "link": "https://www.weka.io/learn/guide/distributed-file-systems/distributed-file-system/",
+  "annotations": "",
+  "summary": "Distributed File Systems (DFS) - WEKA"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e8"
+  },
+  "link": "https://www.cohesity.com/glossary/distributed-file-system/",
+  "annotations": "",
+  "summary": "Distributed File System (DFS) | Explained and Benefits"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94e9"
+  },
+  "link": "https://learn.microsoft.com/en-us/windows/win32/dfs/distributed-file-system-dfs-functions",
+  "annotations": "",
+  "summary": "Distributed File System (DFS) Functions - Win32 apps"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94ea"
+  },
+  "link": "https://learn.microsoft.com/en-us/answers/questions/993156/how-does-dfs-work",
+  "annotations": "",
+  "summary": "How does DFS work - Microsoft Q&A"
+},
+{
+  "_id": {
+    "$oid": "69ea4e4617c98fa43baa94eb"
+  },
+  "link": "https://systemsize.com/type-breakdown/distributed-file-systems-explained-the-complete-guide/",
+  "annotations": "",
+  "summary": "Distributed File Systems Explained: The Complete Guide"
+}]
