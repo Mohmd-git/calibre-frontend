@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Compass, Smile, Camera, Sun, Sparkles } from "lucide-react";
-import activitiesPic from "../../assets/activities.png";
+import activitiesPic from "../../assets/activities-new.png";
 
 const ScrollReveal = ({ children, delay = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,24 +29,26 @@ export default function ActivitiesSection() {
       <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-cyan-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
 
       <div className="max-w-7xl mx-auto px-5 md:px-6 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-20">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           {/* LEFT SIDE: Curiosity Text & Funky Cards */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 overflow-hidden">
             
             <ScrollReveal delay={100}>
               {/* Tilted Curiosity Badge */}
-              <div className="inline-flex items-center gap-2 bg-yellow-300 text-yellow-900 px-4 py-2 rounded-xl font-black tracking-widest uppercase text-xs shadow-md transform -rotate-3 hover:rotate-0 transition-transform cursor-default mb-6">
+              <div className="inline-flex items-center gap-2 bg-yellow-300 text-yellow-900 px-3 py-2 md:px-4 rounded-xl font-black tracking-wide md:tracking-widest uppercase text-[10px] md:text-xs shadow-md transform -rotate-3 hover:rotate-0 transition-transform cursor-default mb-6">
                 <Sparkles size={16} /> 
                 The Secret Formula
               </div>
             </ScrollReveal>
             
             <ScrollReveal delay={200}>
-              <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-[1.1] tracking-tight">
-                What's our secret to <br className="hidden lg:block"/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">stress-free toppers?</span>
-              </h2>
+             <h2 className="text-3xl sm:text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight break-words">
+                What's our secret to
+                  <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                      stress-free toppers?
+               </span>
+                </h2>
             </ScrollReveal>
             
             <ScrollReveal delay={300}>

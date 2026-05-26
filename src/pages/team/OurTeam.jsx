@@ -5,7 +5,7 @@ import shahinaPic from "../../assets/shahina mam.jpg.jpeg";
 import anuskhaPic from "../../assets/Anuskha.jpeg";
 import zarinPic from "../../assets/Zarin mam.jpeg";
 import shrutiPic from "../../assets/shruti.jpeg";
-import shubhamPic from "../../assets/shubham.jpeg"; // ✅ Added Shubham's image import
+import shubhamImg from "../../assets/Shubham.jpeg";
 import shanidevPic from "../../assets/shanidev.jpeg";
 import teamHeroPic from "../../assets/ourteam.png";
 
@@ -80,7 +80,7 @@ const teachers = [
     name: "Shubham Sir", // ✅ Added Shubham's Profile
     role: "Commerce Faculty",
     subject: "Accounts",
-    image: shubhamPic,
+    image: shubhamImg,
     quote: "Accounting is the language of business, and mastering it unlocks the mechanics of success.",
     bio: "With a sharp eye for detail and a knack for simplifying complex financial concepts, our Accounts expert guides students through the rigorous logic of commerce. His practical approach ensures students don't just memorize formulas, but understand the real-world applications of accounting principles.",
   },
