@@ -3,6 +3,7 @@ import axios from "axios";
 import { FilePlus, Trash2, BookOpen, GraduationCap, Upload, FileText, Plus, Loader2, Pencil, X } from "lucide-react";
 import Swal from "sweetalert2";
 import { Toaster, toast } from "react-hot-toast";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 export default function AddMaterial() {
   const [materials, setMaterials] = useState([]);
@@ -19,7 +20,7 @@ export default function AddMaterial() {
 
   const fetchMaterials = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/materials");
+      const res = await axios.get(`${API_URL}/api/materials`);
       setMaterials(res.data);
     } catch (err) {
       console.error(err);
@@ -121,12 +122,12 @@ export default function AddMaterial() {
       });
 
       if (editId) {
-        await axios.put(`http://localhost:5000/api/materials/${editId}`, formData, {
+        await axios.put(`${API_URL}/api/materials/${editId}`, formData, {
           headers: { "Content-Type": "multipart/form-data" }
         });
         toast.success("Material Updated!", { id: loadToast });
       } else {
-        await axios.post("http://localhost:5000/api/materials", formData, {
+        await axios.post(`${API_URL}/api/materials`, formData, {
           headers: { "Content-Type": "multipart/form-data" }
         });
         toast.success("Material Uploaded!", { id: loadToast });
@@ -175,7 +176,7 @@ export default function AddMaterial() {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          await axios.delete(`http://localhost:5000/api/materials/${id}`);
+          await axios.delete(`${API_URL}/api/materials/${id}`);
           toast.success("Material deleted successfully");
           if (editId === id) resetForm(); 
           fetchMaterials();

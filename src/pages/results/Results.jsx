@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Award, TrendingUp, CheckCircle2, GraduationCap, ChevronDown } from "lucide-react";
 import calibrePic from "../../assets/calibre-pic.jpeg";
 import badgePic from "../../assets/excellence-badge.png";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 const ScrollReveal = ({ children, delay = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,7 +46,7 @@ export default function Results() {
     window.scrollTo(0, 0);
     const fetchResults = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/results");
+        const res = await axios.get("axios.get(`${API_URL}/api/results`)");
         setResults(res.data);
       } catch (err) {
         console.error(err);

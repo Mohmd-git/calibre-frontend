@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Mail, ArrowRight, ShieldCheck, CheckCircle2 } from "lucide-react";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 const AdminLogin = () => {
   const [email, setEmail] = useState("");
@@ -11,7 +12,7 @@ const AdminLogin = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      await axios.post("http://localhost:5000/api/admin-auth/send-magic-link", { email });
+      await axios.post(`${API_URL}/api/admin-auth/send-magic-link`, { email });
       setSuccess(true);
       setEmail("");
     } catch (error) {

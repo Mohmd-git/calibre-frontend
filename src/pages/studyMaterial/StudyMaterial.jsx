@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 
 import studyHubPic from "../../assets/study-hub-illustration.png";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 // ✅ SCROLL REVEAL COMPONENT
 const ScrollReveal = ({ children, delay = 0 }) => {
@@ -80,7 +81,7 @@ export default function StudyMaterial() {
 
   const fetchMaterials = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/materials");
+      const res = await axios.get("axios.get(`${API_URL}/api/materials`)");
       setMaterials(res.data);
       setFilteredMaterials(res.data);
     } catch (err) {

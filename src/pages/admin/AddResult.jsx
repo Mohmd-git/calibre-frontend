@@ -3,6 +3,7 @@ import { UserPlus, GraduationCap, Award, Upload, Image as ImageIcon, Loader2, Tr
 import axios from "axios";
 import Swal from "sweetalert2";
 import { Toaster, toast } from "react-hot-toast";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 export default function AddResult() {
   const [results, setResults] = useState([]);
@@ -22,7 +23,7 @@ export default function AddResult() {
 
   const fetchResults = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/results");
+      const res = await axios.get(`${API_URL}/api/results`);
       setResults(res.data);
     } catch (err) {
       console.error("Error fetching results:", err);
@@ -103,12 +104,12 @@ export default function AddResult() {
       }
 
       if (editId) {
-        await axios.put(`http://localhost:5000/api/results/${editId}`, formData, {
-          headers: { "Content-Type": "multipart/form-data" }
+        await axios.put(`${API_URL}/api/results/${editId}`, formData, {
+        headers: { "Content-Type": "multipart/form-data" }
         });
         toast.success(`${form.name}'s result updated!`, { id: loadToast });
       } else {
-        await axios.post("http://localhost:5000/api/results", formData, {
+        await axios.post(`${API_URL}/api/results`, formData, {
           headers: { "Content-Type": "multipart/form-data" }
         });
         toast.success(`${form.name}'s result published!`, { id: loadToast });
@@ -166,7 +167,7 @@ export default function AddResult() {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          await axios.delete(`http://localhost:5000/api/results/${id}`);
+          await axios.delete(`${API_URL}/api/results/${id}`);
           toast.success("Record deleted successfully");
           if (editId === id) resetForm(); 
           fetchResults();

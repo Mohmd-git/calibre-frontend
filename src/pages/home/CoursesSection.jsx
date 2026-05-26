@@ -3,6 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { BookOpen, Clock, PlayCircle, ListVideo, ArrowRight } from "lucide-react";
 import calibrePic from "../../assets/calibre-pic.jpeg";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 export default function CoursesSection() {
   const [premierCourses, setPremierCourses] = useState([]);
@@ -10,7 +11,7 @@ export default function CoursesSection() {
   useEffect(() => {
     const fetchHomeCourses = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/courses");
+        const res = await axios.get("axios.get(`${API_URL}/api/courses`)");
         const homeCourses = res.data.filter(c => c.showOnHome).slice(0, 4);
         setPremierCourses(homeCourses);
       } catch (err) {

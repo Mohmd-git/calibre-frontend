@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import calibrePic from "../../assets/calibre-pic.jpeg";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 const getRankColor = (rank) => {
   if (rank === "1") return "bg-yellow-500";
@@ -16,7 +17,7 @@ export default function HallOfFameSection() {
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/results");
+        const response = await axios.get(`${API_URL}/api/results`);
         let homeResults = response.data.filter((r) => r.showOnHome);
         homeResults.sort((a, b) => {
           const rankA = a.topperRank ? Number(a.topperRank) : 999;

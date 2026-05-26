@@ -3,6 +3,7 @@ import axios from "axios";
 import { Plus, Trash2, Link as LinkIcon, Upload, X, FileText, Zap, Bookmark, Pencil } from "lucide-react";
 import Swal from "sweetalert2";
 import { Toaster, toast } from "react-hot-toast";
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 export default function AddCourse() {
   const [courses, setCourses] = useState([]);
@@ -29,7 +30,7 @@ export default function AddCourse() {
 
   const fetchCourses = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/courses");
+      const res = await axios.get(`${API_URL}/api/courses`);
       setCourses(res.data);
     } catch (err) {
       console.error("Error fetching courses:", err);
@@ -114,12 +115,12 @@ export default function AddCourse() {
     }
 
     if (editId) {
-      await axios.put(`http://localhost:5000/api/courses/${editId}`, formData, {
+      await axios.put(`${API_URL}/api/courses/${editId}`, formData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
       toast.success("Resource Updated Successfully!", { id: loadToast });
     } else {
-      await axios.post("http://localhost:5000/api/courses", formData, {
+      await axios.post(`${API_URL}/api/courses`, formData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
       toast.success("Resource Published Successfully!", { id: loadToast });
@@ -181,7 +182,7 @@ export default function AddCourse() {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          await axios.delete(`http://localhost:5000/api/courses/${id}`);
+          await axios.delete(`${API_URL}/api/courses/${id}`);
           toast.success("Resource removed from catalog");
           if (editId === id) resetForm();
           fetchCourses();
