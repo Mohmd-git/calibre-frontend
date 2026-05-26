@@ -83,7 +83,7 @@ export default function Courses() {
     window.scrollTo(0, 0);
     const fetchCourses = async () => {
       try {
-        const res = await axios.get("`${API_URL}/api/courses`");
+        const res = await axios.get(`${API_URL}/api/courses`);
         setCourses(res.data);
         setFilteredCourses(res.data);
       } catch (err) {

@@ -81,7 +81,7 @@ export default function StudyMaterial() {
 
   const fetchMaterials = async () => {
     try {
-      const res = await axios.get("axios.get(`${API_URL}/api/materials`)");
+      const res = await axios.get(`${API_URL}/api/materials`);
       setMaterials(res.data);
       setFilteredMaterials(res.data);
     } catch (err) {

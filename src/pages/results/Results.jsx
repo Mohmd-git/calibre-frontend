@@ -46,7 +46,7 @@ export default function Results() {
     window.scrollTo(0, 0);
     const fetchResults = async () => {
       try {
-        const res = await axios.get("axios.get(`${API_URL}/api/results`)");
+        const res = await axios.get(`${API_URL}/api/results`);
         setResults(res.data);
       } catch (err) {
         console.error(err);
