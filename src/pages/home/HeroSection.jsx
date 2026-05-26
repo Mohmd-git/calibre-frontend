@@ -58,7 +58,7 @@ export default function HeroSection() {
           {[
             { Icon: Clock, value: "20+ Years", label: "Experience" },
             { Icon: Users, value: "5000+", label: "Students Coached" },
-            { Icon: TrendingUp, value: "98.5%", label: "Success Rate" },
+            { Icon: TrendingUp, value: "100%", label: "Success Rate" },
           ].map(({ Icon, value, label }, i) => (
             <div key={label} className="flex flex-col sm:flex-row items-center gap-1 sm:gap-3 text-center sm:text-left">
               <div className="bg-blue-100 p-1.5 sm:p-2 rounded-lg">

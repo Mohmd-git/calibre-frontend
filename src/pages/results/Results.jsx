@@ -138,7 +138,7 @@ export default function Results() {
           {[
             { value: "150+",  label: "Distinctions",       icon: <Award size={16} className="text-blue-500" /> },
             { value: "99.4%", label: "Highest Aggregate",  icon: <TrendingUp size={16} className="text-blue-500" /> },
-            { value: "98.2%", label: "Overall Pass Rate",  icon: <CheckCircle2 size={16} className="text-blue-500" /> },
+            { value: "100%", label: "Overall Pass Rate",  icon: <CheckCircle2 size={16} className="text-blue-500" /> },
             { value: "45+",   label: "CET/NEET Cleared",   icon: <GraduationCap size={16} className="text-blue-500" /> },
           ].map((stat, i) => (
             <ScrollReveal key={i} delay={i * 150}>

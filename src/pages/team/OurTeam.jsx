@@ -5,6 +5,7 @@ import shahinaPic from "../../assets/shahina mam.jpg.jpeg";
 import anuskhaPic from "../../assets/Anuskha.jpeg";
 import zarinPic from "../../assets/Zarin mam.jpeg";
 import shrutiPic from "../../assets/shruti.jpeg";
+import shubhamPic from "../../assets/shubham.jpeg"; // ✅ Added Shubham's image import
 import shanidevPic from "../../assets/shanidev.jpeg";
 import teamHeroPic from "../../assets/ourteam.png";
 
@@ -49,7 +50,7 @@ const teachers = [
   },
   {
     id: 2,
-    name: "Anuskha Dethe",
+    name: "Anuskha Mam",
     role: "Science Faculty",
     subject: "Science",
     image: anuskhaPic,
@@ -58,7 +59,7 @@ const teachers = [
   },
   {
     id: 3,
-    name: "Zarin Athar Sayyed",
+    name: "Zarin Mam",
     role: "Language Faculty",
     subject: "Hindi & Marathi",
     image: zarinPic,
@@ -67,7 +68,7 @@ const teachers = [
   },
   {
     id: 4,
-    name: "Shruti Vijay Kadam",
+    name: "Shruti Mam",
     role: "English Faculty",
     subject: "English & SST",
     image: shrutiPic,
@@ -76,6 +77,15 @@ const teachers = [
   },
   {
     id: 5,
+    name: "Shubham Sir", // ✅ Added Shubham's Profile
+    role: "Commerce Faculty",
+    subject: "Accounts",
+    image: shubhamPic,
+    quote: "Accounting is the language of business, and mastering it unlocks the mechanics of success.",
+    bio: "With a sharp eye for detail and a knack for simplifying complex financial concepts, our Accounts expert guides students through the rigorous logic of commerce. His practical approach ensures students don't just memorize formulas, but understand the real-world applications of accounting principles.",
+  },
+  {
+    id: 6,
     name: "Shanidev Tiwari",
     role: "Administrator",
     subject: "Operations & Management",

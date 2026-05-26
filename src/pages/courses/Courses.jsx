@@ -166,11 +166,11 @@ export default function Courses() {
             </div>
 
             {/* Filter chips — horizontal scroll on mobile */}
-            <div className="w-full md:w-auto">
+            <div className="w-full md:w-auto overflow-x-auto pb-1 md:pb-0 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
               <Stack
                 direction="row"
                 spacing={1}
-                sx={{ flexWrap: "wrap", gap: "8px" }}
+                sx={{ flexWrap: { xs: "nowrap", md: "wrap" }, gap: "8px", minWidth: "max-content" }}
               >
                 {tags.map((tag) => (
                   <Chip
@@ -180,6 +180,7 @@ export default function Courses() {
                     color={selectedTag === tag ? "primary" : "default"}
                     variant={selectedTag === tag ? "filled" : "outlined"}
                     onClick={() => setSelectedTag(tag)}
+                    sx={{ fontWeight: selectedTag === tag ? "bold" : "medium" }}
                   />
                 ))}
               </Stack>
@@ -193,22 +194,42 @@ export default function Courses() {
           </div>
         </ScrollReveal>
 
-        {/* COURSES GRID */}
+        {/* COURSES GRID & EMPTY STATES */}
         {isLoading ? (
           <div className="flex flex-col items-center justify-center py-20 text-blue-600">
             <Loader2 size={40} className="animate-spin mb-4" />
             <p className="text-sm font-medium text-gray-500">Loading curriculum...</p>
           </div>
         ) : filteredCourses.length === 0 ? (
-          <ScrollReveal delay={200}>
-            <div className="flex flex-col items-center justify-center py-20 bg-white rounded-2xl border border-gray-100 shadow-sm mt-6">
-              <BookX size={60} className="text-gray-300 mb-4" />
-              <h3 className="text-lg font-bold text-gray-800">No courses found</h3>
-              <p className="text-sm text-gray-500 mt-1">Try adjusting your search or filters.</p>
-            </div>
-          </ScrollReveal>
+          
+          /* ✅ SMART EMPTY STATE LOGIC */
+          searchTerm ? (
+            /* STATE 1: User searched for something but nothing matched */
+            <ScrollReveal delay={200}>
+              <div className="flex flex-col items-center justify-center py-16 sm:py-20 bg-white rounded-[2rem] border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.02)] mt-6 px-5 text-center">
+                <div className="w-16 h-16 bg-gray-50 rounded-full flex items-center justify-center mb-5 border border-gray-100">
+                  <BookX size={32} className="text-gray-400" />
+                </div>
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">No matching courses</h3>
+                <p className="text-sm text-gray-500 max-w-sm mx-auto leading-relaxed">
+                  We couldn't find anything for <span className="font-semibold text-gray-700">"{searchTerm}"</span>. Try adjusting your keywords or filters.
+                </p>
+              </div>
+            </ScrollReveal>
+          ) : (
+            /* STATE 2: The category is empty (Admin hasn't uploaded courses yet) */
+            <ScrollReveal delay={200}>
+              <div className="flex flex-col items-center justify-center py-16 sm:py-24 bg-white rounded-[2rem] border border-blue-50 shadow-[0_4px_20px_rgb(0,0,0,0.02)] mt-6 px-5 text-center">
+                <div className="text-5xl sm:text-6xl mb-4 sm:mb-6">🎓</div>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-gray-900 mb-3 tracking-tight">Curriculum in Progress!</h3>
+                <p className="text-sm sm:text-base text-gray-500 max-w-md mx-auto leading-relaxed font-medium">
+                  Our expert faculty is currently designing and recording top-tier video modules for this section. Stay tuned for new content!
+                </p>
+              </div>
+            </ScrollReveal>
+          )
+
         ) : (
-          /* Mobile: single col, tablet: 2 col, desktop: 3 col — same as before */
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mt-6">
             {filteredCourses.map((c, index) => {
               const isPlaylist = c.playlistLink?.includes("list=");
@@ -216,38 +237,38 @@ export default function Courses() {
 
               return (
                 <ScrollReveal key={c._id} delay={(index % 3) * 100}>
-                  <div className="bg-white h-full rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-                    <div className="relative">
+                  <div className="bg-white h-full rounded-xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col group">
+                    <div className="relative overflow-hidden">
                       <img
                         src={c.image || calibrePic}
                         alt={c.title}
-                        className="w-full h-44 object-cover"
+                        className="w-full h-44 object-cover transition-transform duration-500 group-hover:scale-105"
                       />
-                      <span className="absolute top-3 left-3 bg-blue-600 text-white text-[10px] px-2.5 py-1 rounded-md font-semibold tracking-wide uppercase shadow-sm">
+                      <span className="absolute top-3 left-3 bg-blue-600 text-white text-[10px] px-2.5 py-1 rounded-md font-bold tracking-wider uppercase shadow-sm">
                         {c.targetClass || c.tag}
                       </span>
                       {hasBadge && (
-                        <span className="absolute top-3 right-3 bg-yellow-400 text-yellow-900 text-[10px] px-2.5 py-1 rounded-md font-bold tracking-wide shadow-sm">
+                        <span className="absolute top-3 right-3 bg-yellow-400 text-yellow-900 text-[10px] px-2.5 py-1 rounded-md font-bold tracking-wider shadow-sm">
                           {c.badge}
                         </span>
                       )}
                     </div>
 
                     <div className="p-5 flex flex-col flex-grow">
-                      <div className="flex items-center gap-1.5 text-[11px] text-blue-600 font-bold mb-3 uppercase tracking-wider">
+                      <div className="flex items-center gap-1.5 text-[10px] md:text-[11px] text-blue-600 font-bold mb-3 uppercase tracking-widest">
                         <BookOpen size={14} className="text-blue-500" />
                         {c.videoType || "Video Lesson"}
                       </div>
 
-                      <h3 className="font-bold text-gray-900 text-base mb-2 line-clamp-2">
+                      <h3 className="font-extrabold text-gray-900 text-base mb-2 line-clamp-2 leading-snug">
                         {c.title}
                       </h3>
 
-                      <p className="text-sm text-gray-500 mb-5 line-clamp-2 flex-grow">
+                      <p className="text-sm text-gray-500 mb-5 line-clamp-2 flex-grow font-medium leading-relaxed">
                         {c.description}
                       </p>
 
-                      <div className="flex items-center gap-4 text-xs text-gray-500 mb-5 pb-5 border-b border-gray-100">
+                      <div className="flex items-center gap-4 text-xs font-semibold text-gray-400 mb-5 pb-5 border-b border-gray-100">
                         <span className="flex items-center gap-1.5">
                           <Clock size={14} className="text-blue-400" /> {c.duration || "N/A"}
                         </span>
@@ -257,15 +278,15 @@ export default function Courses() {
                       </div>
 
                       <div className="flex justify-between items-center mt-auto">
-                        <div className="flex items-center gap-1.5 text-xs font-bold text-slate-500 uppercase tracking-wider">
+                        <div className="flex items-center gap-1.5 text-[11px] font-bold text-slate-500 uppercase tracking-widest">
                           {isPlaylist
-                            ? <><ListVideo size={16} /> Playlist</>
-                            : <><PlayCircle size={16} /> Video</>
+                            ? <><ListVideo size={16} className="text-slate-400" /> Playlist</>
+                            : <><PlayCircle size={16} className="text-slate-400" /> Video</>
                           }
                         </div>
                         <button
                           onClick={() => window.open(c.playlistLink, "_blank")}
-                          className="text-xs bg-blue-600 text-white px-5 py-2.5 rounded-xl hover:bg-blue-700 active:scale-95 font-bold transition-all shadow-md shadow-blue-200 whitespace-nowrap"
+                          className="text-xs bg-[#1884FF] text-white px-5 py-2.5 rounded-xl hover:bg-blue-600 active:scale-95 font-bold transition-all shadow-[0_4px_14px_0_rgb(24,132,255,0.39)] hover:shadow-[0_6px_20px_rgba(24,132,255,0.23)] whitespace-nowrap"
                         >
                           Start Learning
                         </button>
@@ -278,31 +299,31 @@ export default function Courses() {
           </div>
         )}
 
-        {/* CTA BANNER — exact same desktop, stacks on mobile */}
+        {/* CTA BANNER */}
         <ScrollReveal>
-          <div className="mt-16 rounded-2xl flex flex-col md:flex-row overflow-hidden shadow-lg">
-            <div className="bg-[#1884FF] p-7 sm:p-8 md:p-10 flex-1 text-white">
-              <span className="bg-[#4D9EFF] text-white text-[10px] font-bold tracking-wider mb-4 inline-block px-3 py-1.5 rounded-full">
+          <div className="mt-16 sm:mt-20 rounded-[2rem] flex flex-col md:flex-row overflow-hidden shadow-[0_8px_30px_rgb(24,132,255,0.2)]">
+            <div className="bg-[#1884FF] p-8 sm:p-10 lg:p-12 flex-1 text-white">
+              <span className="bg-[#4D9EFF] text-white text-[10px] font-bold tracking-widest mb-4 inline-block px-3.5 py-1.5 rounded-full uppercase">
                 Admissions Open
               </span>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 leading-tight">
+              <h2 className="text-2xl sm:text-3xl font-extrabold mb-3 leading-tight tracking-tight">
                 Need help choosing the right program for your child?
               </h2>
-              <p className="text-sm text-blue-100 mt-2 max-w-lg">
+              <p className="text-sm md:text-base text-blue-100 mt-3 max-w-lg leading-relaxed font-medium">
                 Schedule a free academic counseling session with our expert faculty to identify strengths and career goals.
               </p>
             </div>
 
-            <div className="bg-[#3B9CFF] p-7 sm:p-8 md:p-10 flex flex-row md:flex-col xl:flex-row items-center justify-center gap-3 sm:gap-4 md:min-w-[300px] lg:min-w-[420px]">
+            <div className="bg-[#3B9CFF] p-8 sm:p-10 lg:p-12 flex flex-row md:flex-col xl:flex-row items-center justify-center gap-4 md:min-w-[300px] lg:min-w-[420px]">
               <Link
                 to="/contact"
-                className="flex-1 md:flex-none bg-white text-[#1884FF] px-5 sm:px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-gray-50 active:scale-95 transition w-full xl:w-auto shadow-sm text-center whitespace-nowrap"
+                className="flex-1 md:flex-none bg-white text-[#1884FF] px-6 py-3.5 rounded-xl text-sm font-bold hover:bg-gray-50 active:scale-95 transition-all w-full xl:w-auto shadow-sm text-center whitespace-nowrap"
               >
                 Book Free Session
               </Link>
               <Link
                 to="/counseling"
-                className="flex-1 md:flex-none bg-transparent border border-white text-white px-5 sm:px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-white/10 active:scale-95 transition w-full xl:w-auto shadow-sm text-center whitespace-nowrap"
+                className="flex-1 md:flex-none bg-transparent border-2 border-white/80 text-white px-6 py-3.5 rounded-xl text-sm font-bold hover:bg-white/10 active:scale-95 transition-all w-full xl:w-auto text-center whitespace-nowrap"
               >
                 Learn More
               </Link>
@@ -310,23 +331,23 @@ export default function Courses() {
           </div>
         </ScrollReveal>
 
-        {/* STATS — 2 col on mobile, 4 on desktop — same as before */}
-        <div className="mt-16 sm:mt-20 text-center">
+        {/* STATS */}
+        <div className="mt-16 sm:mt-24 text-center">
           <ScrollReveal delay={100}>
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-2 tracking-tight">
               Join over 5,000+ Successful Alumni
             </h3>
-            <p className="text-xs sm:text-sm text-gray-500 mb-8 sm:mb-10">
+            <p className="text-sm md:text-base font-medium text-gray-500 mb-10 sm:mb-12">
               Trusted by parents for over 20 years across Navi Mumbai
             </p>
           </ScrollReveal>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
-            {["98%", "20+", "15:1", "50+"].map((val, i) => (
+            {["100%", "20+", "15:1", "50+"].map((val, i) => (
               <ScrollReveal key={i} delay={i * 100}>
-                <div className="bg-[#FAFAFB] py-6 sm:py-8 px-4 rounded-xl text-center h-full">
-                  <div className="text-3xl sm:text-4xl font-bold text-[#6bb5ff] mb-2">{val}</div>
-                  <div className="text-[9px] sm:text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-1">
+                <div className="bg-[#FAFAFB] border border-gray-100 py-8 px-4 rounded-2xl text-center h-full hover:bg-white hover:shadow-md transition-all duration-300">
+                  <div className="text-4xl sm:text-5xl font-black text-[#1884FF] mb-3">{val}</div>
+                  <div className="text-[10px] sm:text-[11px] font-bold text-gray-400 uppercase tracking-widest">
                     {["Pass Rate", "Experience", "Student Ratio", "Top Rankers"][i]}
                   </div>
                 </div>

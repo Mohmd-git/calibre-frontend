@@ -9,7 +9,7 @@ export const NAV_LINKS = [
 export const STATS = [
   { icon: "🏆", value: "20+ Years", label: "Experience" },
   { icon: "👨‍🎓", value: "5000+", label: "Students Coached" },
-  { icon: "📈", value: "98.5%", label: "Success Rate" },
+  { icon: "📈", value: "100%", label: "Success Rate" },
 ];
 
 export const FEATURES = [

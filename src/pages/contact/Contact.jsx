@@ -175,7 +175,7 @@ export default function Contact() {
                   <div className="pt-0.5">
                     <p className="text-[10px] md:text-xs font-bold text-blue-500 uppercase tracking-widest mb-1.5">Main Admissions</p>
                     <p className="font-extrabold text-gray-900 text-lg md:text-xl mb-1.5 tracking-tight">+91 99878 89849</p>
-                    <p className="text-xs md:text-sm text-gray-500 font-medium">Mon-Sat, 9:00 AM - 8:00 PM</p>
+                    <p className="text-xs md:text-sm text-gray-500 font-medium"> Mon-Sat, 11:00 AM - 9:00 PM</p>
                   </div>
                 </div>
               </ScrollReveal>
@@ -208,8 +208,12 @@ export default function Contact() {
               <div className="bg-white border border-gray-100/80 rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] overflow-hidden">
                 <ul className="divide-y divide-gray-50 text-sm md:text-base">
                   {[
-                    { day: "Monday - Friday", time: "9:00 AM - 8:00 PM" },
-                    { day: "Saturday", time: "10:00 AM - 4:00 PM" },
+                    { day: "Monday", time: "11:00 AM - 9:00 PM" },
+                    { day: "Tuesday", time: "11:00 AM - 9:00 PM" },
+                    { day: "Wednesday", time: "11:00 AM - 9:00 PM" },
+                    { day: "Thursday", time: "11:00 AM - 9:00 PM" },
+                    { day: "Friday", time: "11:00 AM - 9:00 PM" },
+                    { day: "Saturday", time: "11:00 AM - 9:00 PM" },
                     { day: "Sunday", time: "Closed", isClosed: true },
                   ].map((item, idx) => (
                     <li key={idx} className="flex justify-between items-center px-5 md:px-7 py-4 md:py-5 hover:bg-slate-50/50 transition-colors">

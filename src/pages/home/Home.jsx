@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
+import ActivitiesSection from "./ActivitiesSection"; 
 import CoursesSection from "./CoursesSection";
 import HallOfFameSection from "./HallOfFameSection";
 import WhyChooseSection from "./WhyChooseSection";
@@ -51,9 +52,16 @@ export default function Home() {
       <ScrollReveal delay={0}>
         <HeroSection />
       </ScrollReveal>
+      
       <ScrollReveal delay={50}>
         <AboutSection />
       </ScrollReveal>
+
+      {/* ✅ MOVED BELOW ABOUT SECTION */}
+      <ScrollReveal delay={50}>
+        <ActivitiesSection />
+      </ScrollReveal>
+      
       <ScrollReveal delay={50}>
         <CoursesSection />
       </ScrollReveal>
