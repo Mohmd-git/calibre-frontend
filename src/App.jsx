@@ -12,6 +12,7 @@ import StudyMaterial from "./pages/studyMaterial/StudyMaterial";
 import Contact from "./pages/contact/Contact";
 import Counseling from "./pages/Counseling";
 import OurTeam from "./pages/team/OurTeam";
+import HomeTuition from "./pages/homeTuition/HomeTuition";
 
 // ADMIN
 import AdminPage from "./pages/admin/AdminPage";
@@ -36,6 +37,7 @@ function AppContent() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/counseling" element={<Counseling />} />
         <Route path="/ourteam" element={<OurTeam />} />
+       <Route path="/hometuition" element={<HomeTuition />} /> 
 
         {/* ADMIN PUBLIC */}
         <Route path="/admin-login" element={<AdminLogin />} />

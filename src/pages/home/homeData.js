@@ -3,6 +3,7 @@ export const NAV_LINKS = [
   "Courses",
   "Results",
   "Study Material",
+  "Home Tuition",
   "Our Team",
   "Contact",
 ];

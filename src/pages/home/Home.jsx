@@ -7,6 +7,7 @@ import HallOfFameSection from "./HallOfFameSection";
 import WhyChooseSection from "./WhyChooseSection";
 import TestimonialsSection from "./TestimonialsSection";
 import CTASection from "./CTASection";
+import HomeTuitionPromo from "./HomeTuitionPromo";
 
 const ScrollReveal = ({ children, delay = 0, direction = "up" }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -61,9 +62,11 @@ export default function Home() {
       <ScrollReveal delay={50}>
         <ActivitiesSection />
       </ScrollReveal>
-      
       <ScrollReveal delay={50}>
         <CoursesSection />
+      </ScrollReveal>
+      <ScrollReveal delay={50}>
+        <HomeTuitionPromo />
       </ScrollReveal>
       <ScrollReveal delay={50}>
         <HallOfFameSection />
