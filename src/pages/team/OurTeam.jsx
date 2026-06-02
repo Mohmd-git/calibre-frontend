@@ -6,6 +6,7 @@ import anuskhaPic from "../../assets/Anuskha.jpeg";
 import zarinPic from "../../assets/Zarin mam.jpeg";
 import shrutiPic from "../../assets/shruti.jpeg";
 import shubhamImg from "../../assets/Shubham.jpeg";
+import aarfaPic from "../../assets/Aarfa.jpeg";
 import shanidevPic from "../../assets/shanidev.jpeg";
 import teamHeroPic from "../../assets/ourteam.png";
 
@@ -77,7 +78,7 @@ const teachers = [
   },
   {
     id: 5,
-    name: "Shubham Sir", // ✅ Added Shubham's Profile
+    name: "Shubham Sir", 
     role: "Commerce Faculty",
     subject: "Accounts",
     image: shubhamImg,
@@ -86,6 +87,15 @@ const teachers = [
   },
   {
     id: 6,
+    name: "Aarfa Mam",
+    role: "Mathematics Faculty",
+    subject: "Mathematics",
+    image: aarfaPic,
+    quote: "Mathematics is not about numbers, equations, or algorithms: it is about understanding.",
+    bio: "With a keen focus on logical reasoning and problem-solving, she makes complex mathematical concepts accessible and enjoyable. Her step-by-step teaching methodology helps students build a solid foundation, eliminating math anxiety and preparing them to face their exams with absolute confidence.",
+  },
+  {
+    id: 7,
     name: "Shanidev Tiwari",
     role: "Administrator",
     subject: "Operations & Management",
@@ -128,7 +138,7 @@ export default function OurTeam() {
                 </p>
               </ScrollReveal>
 
-              {/* ✅ INSPIRING QUOTE BOX — the main improvement */}
+              {/* INSPIRING QUOTE BOX */}
               <ScrollReveal delay={400}>
                 <div className="relative bg-white border border-blue-100 rounded-2xl px-5 sm:px-6 py-4 sm:py-5 shadow-sm max-w-xl mx-auto md:mx-0">
                   {/* decorative quote mark */}
