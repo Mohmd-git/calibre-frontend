@@ -88,7 +88,7 @@ export default function Footer() {
             <div className="space-y-3 text-xs sm:text-sm text-gray-500">
               <div className="flex items-start gap-2.5">
                 <MapPin size={14} className="text-blue-600 shrink-0 mt-0.5" />
-                <span className="leading-relaxed">Plot No. 45, Sector 15, Near Nerul Station, Navi Mumbai</span>
+                <span className="leading-relaxed">Plot no. 70, opposite Ganesh Talav Road, near Shiv Mandir Road, Nerul (W, Sector 18A, Nerul, Navi Mumbai, Maharashtra 400706</span>
               </div>
               <a href="tel:+919987889849" className="flex items-center gap-2.5 hover:text-blue-600 transition-colors">
                 <Phone size={14} className="text-blue-600 shrink-0" />
