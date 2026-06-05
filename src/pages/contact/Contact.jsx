@@ -253,7 +253,7 @@ export default function Contact() {
                     <input 
                       name="name"
                       type="text" 
-                      placeholder="e.g. Rahul Sharma" 
+                      placeholder="Enter Your Name" 
                       required
                       className="w-full px-4 py-3.5 md:py-4 bg-slate-50/50 hover:bg-slate-50 rounded-xl border border-gray-200 focus:bg-white focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 text-sm transition-all duration-300 placeholder:text-gray-400 font-medium"
                     />
@@ -269,7 +269,7 @@ export default function Contact() {
                         value={phone}
                         onChange={handlePhoneChange}
                         onBlur={validatePhone}
-                        placeholder="98765 43210" 
+                        placeholder="" 
                         className={`w-full pl-16 pr-4 py-3.5 md:py-4 bg-slate-50/50 hover:bg-slate-50 rounded-xl border ${phoneError ? 'border-red-500 focus:ring-red-500/10' : 'border-gray-200 focus:border-blue-500 focus:ring-blue-500/10'} focus:bg-white focus:outline-none focus:ring-4 text-sm transition-all duration-300 font-medium placeholder:text-gray-400`}
                       />
                     </div>
@@ -282,7 +282,7 @@ export default function Contact() {
                   <input 
                     name="email"
                     type="email" 
-                    placeholder="rahul@example.com" 
+                    placeholder="Enter Your Email" 
                     required
                     className="w-full px-4 py-3.5 md:py-4 bg-slate-50/50 hover:bg-slate-50 rounded-xl border border-gray-200 focus:bg-white focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 text-sm transition-all duration-300 font-medium placeholder:text-gray-400"
                   />
