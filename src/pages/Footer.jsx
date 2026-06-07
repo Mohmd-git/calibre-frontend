@@ -105,10 +105,18 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 mt-8 sm:mt-12 pt-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-500">
           <p>© 2026 Calibre Tutorials. All rights reserved.</p>
-          <div className="flex gap-5">
-            <Link to="#" className="hover:text-blue-600 transition-colors">Privacy Policy</Link>
-            <Link to="#" className="hover:text-blue-600 transition-colors">Terms of Service</Link>
-          </div>
+
+          <p className="text-center sm:text-right">
+            Created & Managed by{" "}
+            <a
+              href="https://mohammedalishaikh.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+            >
+              Mohammed Ali
+            </a>
+          </p>
         </div>
 
       </div>

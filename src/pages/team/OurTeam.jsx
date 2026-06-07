@@ -51,7 +51,7 @@ const teachers = [
   },
   {
     id: 2,
-    name: "Anuskha Mam",
+    name: "Anushka Mam",
     role: "Science Faculty",
     subject: "Science",
     image: anuskhaPic,
