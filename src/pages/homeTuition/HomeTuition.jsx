@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Users, GraduationCap, BookOpen, ArrowRight, CheckCircle, HelpCircle, Star, ShieldCheck, Layers } from "lucide-react";
 
-// ✅ SCROLL REVEAL COMPONENT
+
 const ScrollReveal = ({ children, delay = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -20,7 +20,6 @@ const ScrollReveal = ({ children, delay = 0 }) => {
   );
 };
 
-// ✅ NUMBER ANIMATION COMPONENT
 const Counter = ({ end, duration = 2000, suffix = "" }) => {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -60,7 +59,7 @@ const Counter = ({ end, duration = 2000, suffix = "" }) => {
 };
 
 export default function HomeTuition() {
-  // ✅ UPDATED LINKS HERE
+ 
   const studentForm = "https://docs.google.com/forms/d/e/1FAIpQLScmaWsApgB4uGsyCRFezIvyc2uTush6wS_snXAc4KZDY_VfXA/viewform?usp=header";
   const tutorForm = "https://docs.google.com/forms/d/e/1FAIpQLSdENqp6GQAIJrETNQWWtCtWWAf4imZomq8a2B4NyyWbTpMfZw/viewform?usp=header";
 
