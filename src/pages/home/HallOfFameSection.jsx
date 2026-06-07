@@ -68,7 +68,7 @@ export default function HallOfFameSection() {
                   </div>
 
                   <div className="text-[#1884FF] font-black text-xl sm:text-2xl mb-1">{student.score}</div>
-                  <h4 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">{student.studentName}</h4>
+                  <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">{student.studentName}</h3>
                   <p className="text-gray-500 text-[10px] sm:text-[11px] mb-4 sm:mb-6">
                     {student.course} — Batch of {student.year || "N/A"}
                   </p>

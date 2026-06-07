@@ -72,7 +72,7 @@ export default function ActivitiesSection() {
                       {item.icon}
                     </div>
                     <div>
-                      <h4 className={`font-black text-base mb-1 ${item.text}`}>{item.title}</h4>
+                      <h3 className={`font-black text-base mb-1 ${item.text}`}>{item.title}</h4>
                       <p className="text-xs font-semibold text-gray-600">{item.desc}</p>
                     </div>
                   </div>

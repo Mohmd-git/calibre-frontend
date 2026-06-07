@@ -29,9 +29,9 @@ export default function WhyChooseSection() {
             >
               <div className="text-2xl sm:text-3xl mt-0.5 shrink-0">{item.icon}</div>
               <div>
-                <h4 className={`font-bold text-sm sm:text-base md:text-lg mb-1 sm:mb-2 ${i === 2 ? "text-white" : "text-gray-900"}`}>
+                <h3 className={`font-bold text-sm sm:text-base md:text-lg mb-1 sm:mb-2 ${i === 2 ? "text-white" : "text-gray-900"}`}>
                   {item.title}
-                </h4>
+                </h3>
                 <p className={`text-xs sm:text-sm md:text-base leading-relaxed ${i === 2 ? "text-blue-100" : "text-gray-500"}`}>
                   {item.desc}
                 </p>

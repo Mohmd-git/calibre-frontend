@@ -14,24 +14,39 @@ export default function Footer() {
           {/* Brand — full width on mobile */}
           <div className="col-span-2 sm:col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <img src={calibreLogo} alt="Calibre Tutorials" className="h-7 sm:h-8 w-auto object-contain rounded-md" />
+              <img src={calibreLogo} alt="Calibre Tutorials Logo" className="h-7 sm:h-8 w-auto object-contain rounded-md" />
               <span className="font-bold text-blue-600 text-sm sm:text-base">Calibre Tutorials</span>
             </div>
-            <p className="text-xs sm:text-sm text-gray-500 leading-relaxed mb-5">
+            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-5">
               Grooming talents for academic excellence for over 20 years.
               Professional coaching for Class 5 to 12 and competitive exams.
             </p>
-            <div className="flex gap-4 text-gray-400 text-lg">
-              <a href="https://share.google/BHNtgvKQyt1aXGwL1" target="_blank" rel="noopener noreferrer"
-                className="hover:text-[#1877F2] active:scale-90 transition-all p-1">
+            <div className="flex gap-4 text-gray-600 text-lg">
+              <a
+                href="https://share.google/BHNtgvKQyt1aXGwL1"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our Facebook page"
+                className="hover:text-[#1877F2] active:scale-90 transition-all p-1"
+              >
                 <FaFacebookF />
               </a>
-              <a href="https://www.instagram.com/calibre_tutorials_" target="_blank" rel="noopener noreferrer"
-                className="hover:text-[#E4405F] active:scale-90 transition-all p-1">
+              <a
+                href="https://www.instagram.com/calibre_tutorials_"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our Instagram page"
+                className="hover:text-[#E4405F] active:scale-90 transition-all p-1"
+              >
                 <FaInstagram />
               </a>
-              <a href="https://www.youtube.com/@calibretutorial2148" target="_blank" rel="noopener noreferrer"
-                className="hover:text-[#FF0000] active:scale-90 transition-all p-1">
+              <a
+                href="https://www.youtube.com/@calibretutorial2148"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our YouTube channel"
+                className="hover:text-[#FF0000] active:scale-90 transition-all p-1"
+              >
                 <FaYoutube />
               </a>
             </div>
@@ -42,7 +57,7 @@ export default function Footer() {
             <h4 className="font-semibold text-gray-900 text-xs sm:text-sm mb-3 sm:mb-4 uppercase tracking-wide">
               Quick Links
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm text-gray-500">
+            <ul className="space-y-2.5 text-xs sm:text-sm text-gray-600">
               {[
                 { label: "Home", to: "/" },
                 { label: "Our Courses", to: "/courses" },
@@ -65,7 +80,7 @@ export default function Footer() {
             <h4 className="font-semibold text-gray-900 text-xs sm:text-sm mb-3 sm:mb-4 uppercase tracking-wide">
               Why Calibre?
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm text-gray-500">
+            <ul className="space-y-2.5 text-xs sm:text-sm text-gray-600">
               {[
                 "20+ Years of Legacy",
                 "5,000+ Students Mentored",
@@ -85,10 +100,10 @@ export default function Footer() {
             <h4 className="font-semibold text-gray-900 text-xs sm:text-sm mb-3 sm:mb-4 uppercase tracking-wide">
               Get In Touch
             </h4>
-            <div className="space-y-3 text-xs sm:text-sm text-gray-500">
+            <div className="space-y-3 text-xs sm:text-sm text-gray-600">
               <div className="flex items-start gap-2.5">
                 <MapPin size={14} className="text-blue-600 shrink-0 mt-0.5" />
-                <span className="leading-relaxed">Plot no. 70, opposite Ganesh Talav Road, near Shiv Mandir Road, Nerul (W, Sector 18A, Nerul, Navi Mumbai, Maharashtra 400706</span>
+                <span className="leading-relaxed">Plot no. 70, opposite Ganesh Talav Road, near Shiv Mandir Road, Nerul (W), Sector 18A, Nerul, Navi Mumbai, Maharashtra 400706</span>
               </div>
               <a href="tel:+919987889849" className="flex items-center gap-2.5 hover:text-blue-600 transition-colors">
                 <Phone size={14} className="text-blue-600 shrink-0" />
@@ -103,11 +118,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-200 mt-8 sm:mt-12 pt-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-500">
+        <div className="border-t border-gray-200 mt-8 sm:mt-12 pt-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-600">
           <p>© 2026 Calibre Tutorials. All rights reserved.</p>
 
           <p className="text-center sm:text-right">
-            Created & Managed by{" "}
+            Built with ❤️ by{" "}
             <a
               href="https://mohammedalishaikh.vercel.app/"
               target="_blank"

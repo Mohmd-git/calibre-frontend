@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div key={title} className={`${bg} rounded-xl p-4 sm:p-6 text-center shadow-sm border`}>
               <Icon className={`mx-auto ${iconColor} mb-2 sm:mb-4`} size={26} />
               <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-1 sm:mb-2">{title}</h3>
-              <p className="text-xs sm:text-sm text-gray-500 leading-relaxed hidden sm:block">{desc}</p>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed hidden sm:block">{desc}</p>
             </div>
           ))}
         </div>
