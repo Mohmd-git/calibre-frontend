@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -28,29 +27,31 @@ function AppContent() {
     <>
       {!hideLayout && <Navbar />}
 
-      <Routes>
-        {/* PUBLIC ROUTES */}
-         <Route path="/" element={<Home />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/results" element={<Results />} />
-        <Route path="/studymaterial" element={<StudyMaterial />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/counseling" element={<Counseling />} />
-        <Route path="/ourteam" element={<OurTeam />} />
-       <Route path="/hometuition" element={<HomeTuition />} /> 
+      <main>
+        <Routes>
+          {/* PUBLIC ROUTES */}
+          <Route path="/" element={<Home />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/results" element={<Results />} />
+          <Route path="/studymaterial" element={<StudyMaterial />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/counseling" element={<Counseling />} />
+          <Route path="/ourteam" element={<OurTeam />} />
+          <Route path="/hometuition" element={<HomeTuition />} /> 
 
-        {/* ADMIN PUBLIC */}
-        <Route path="/admin-login" element={<AdminLogin />} />
-        <Route path="/admin-verify" element={<AdminVerify />} />
+          {/* ADMIN PUBLIC */}
+          <Route path="/admin-login" element={<AdminLogin />} />
+          <Route path="/admin-verify" element={<AdminVerify />} />
 
-        {/* 🔒 PROTECTED ADMIN */}
-        <Route element={<AdminProtectedLayout />}>
-          <Route path="/admin" element={<AdminPage />} />
-        </Route>
+          {/* 🔒 PROTECTED ADMIN */}
+          <Route element={<AdminProtectedLayout />}>
+            <Route path="/admin" element={<AdminPage />} />
+          </Route>
 
-        {/* OPTIONAL: fallback */}
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+          {/* OPTIONAL: fallback */}
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </main>
 
       {!hideLayout && <Footer />}
     </>

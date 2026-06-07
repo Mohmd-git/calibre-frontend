@@ -1,4 +1,4 @@
-import calibrePic from "../../assets/calibre-pic.jpeg";
+import calibrePic from "../../assets/calibre-pic.webp";
 import { Clock, Users, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
 

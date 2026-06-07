@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Compass, Smile, Camera, Sun, Sparkles } from "lucide-react";
-import activitiesPic from "../../assets/activities-new.png";
+import activitiesPic from "../../assets/activities-new.webp";
 
 const ScrollReveal = ({ children, delay = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);

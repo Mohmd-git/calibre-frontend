@@ -36,7 +36,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-2 flex-1">
             <img
               src={calibreLogo}
-              alt="Calibre Tutorials"
+              alt="Calibre Tutorials Logo"
               className="h-7 sm:h-8 w-auto object-contain rounded-md"
             />
             <span className="font-bold text-blue-600 text-base sm:text-lg tracking-tight">
@@ -108,12 +108,13 @@ export default function Navbar() {
           {/* Drawer Header */}
           <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100">
             <div className="flex items-center gap-2">
-              <img src={calibreLogo} alt="Calibre" className="h-7 w-auto rounded-md" />
+              <img src={calibreLogo} alt="Calibre Tutorials Logo" className="h-7 w-auto rounded-md" />
               <span className="font-bold text-blue-600 text-sm">Calibre Tutorials</span>
             </div>
             <button
               onClick={() => setMobileOpen(false)}
               className="p-1.5 rounded-lg hover:bg-gray-100 text-gray-500"
+              aria-label="Close menu"
             >
               <X size={20} />
             </button>
