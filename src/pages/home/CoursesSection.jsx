@@ -11,7 +11,7 @@ export default function CoursesSection() {
   useEffect(() => {
     const fetchHomeCourses = async () => {
       try {
-        const res = await axios.get("axios.get(`${API_URL}/api/courses`)");
+        const res = await axios.get(`${API_URL}/api/courses`);
         const homeCourses = res.data.filter(c => c.showOnHome).slice(0, 4);
         setPremierCourses(homeCourses);
       } catch (err) {
