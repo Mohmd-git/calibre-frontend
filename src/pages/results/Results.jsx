@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { Award, TrendingUp, CheckCircle2, GraduationCap, ChevronDown } from "lucide-react";
-import calibrePic from "../../assets/calibre-pic.jpeg";
+import calibrePic from "../../assets/calibre-pic.webp";
 import badgePic from "../../assets/excellence-badge.png";
 const API_URL = import.meta.env.VITE_BACKEND_URL;
 

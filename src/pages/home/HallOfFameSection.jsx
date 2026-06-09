@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import calibrePic from "../../assets/calibre-pic.jpeg";
+import calibrePic from "../../assets/calibre-pic.webp";
 const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 const getRankColor = (rank) => {

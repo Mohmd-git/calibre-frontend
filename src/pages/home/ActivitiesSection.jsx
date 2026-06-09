@@ -72,7 +72,7 @@ export default function ActivitiesSection() {
                       {item.icon}
                     </div>
                     <div>
-                      <h3 className={`font-black text-base mb-1 ${item.text}`}>{item.title}</h4>
+                      <h3 className={`font-black text-base mb-1 ${item.text}`}>{item.title}</h3>
                       <p className="text-xs font-semibold text-gray-600">{item.desc}</p>
                     </div>
                   </div>
@@ -96,7 +96,7 @@ export default function ActivitiesSection() {
                 
                 <img 
                   src={activitiesPic} 
-                  alt="Students enjoying activities" 
+                  alt="Students enjoying educational and recreational activities at Calibre Tutorials" 
                   className="w-full h-full object-cover rounded-sm min-h-[300px] md:min-h-[450px]"
                 />
                 
