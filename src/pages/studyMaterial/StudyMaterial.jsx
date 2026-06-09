@@ -107,6 +107,33 @@ export default function StudyMaterial() {
     setFilteredMaterials(result);
   }, [searchTerm, activeCategory, materials]);
 
+  const handleDownload = async (fileUrl, fileName) => {
+    try {
+      const response = await fetch(fileUrl);
+
+      if (!response.ok) {
+        throw new Error("Failed to download file");
+      }
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = fileName.endsWith(".pdf")
+        ? fileName
+        : `${fileName}.pdf`;
+
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+
+      window.URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error("Download failed:", err);
+    }
+  };
+
   return (
     <div className="bg-[#fafcff] min-h-screen font-sans text-gray-800 pb-20">
 
@@ -291,14 +318,18 @@ export default function StudyMaterial() {
                       </div>
 
                       {fileCount > 0 ? (
-                        <a 
-                          href={doc.files[0]?.fileUrl || "#"} 
-                          target="_blank"
-                          rel="noreferrer"
+                        <button
+                          onClick={() =>
+                            handleDownload(
+                              doc.files[0]?.fileUrl,
+                              doc.files[0]?.fileName || doc.title
+                            )
+                          }
                           className="w-full flex items-center justify-center gap-2 bg-[#1884FF] text-white py-2 rounded-lg text-xs font-semibold hover:bg-blue-700 shadow-sm transition"
                         >
-                          <Download size={14} /> Download Material
-                        </a>
+                          <Download size={14} />
+                          Download Material
+                        </button>
                       ) : (
                         <button disabled className="w-full flex items-center justify-center gap-2 border border-gray-200 text-gray-400 py-2 rounded-lg text-xs font-semibold cursor-not-allowed">
                           No files attached
